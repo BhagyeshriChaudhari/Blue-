@@ -74,7 +74,7 @@ a i:hover{
     font-family:'Nunito',sans-serif;
 }
 .btn1{
-    margin-top:40px;
+    margin-top:30px;
     margin-right: 10px;
     padding:10px;
     border:none;
@@ -87,7 +87,7 @@ a i:hover{
     color:black;
 }
 .btn2{
-    margin-top: 40px;
+    margin-top: 30px;
     padding:9px;
     background-color:transparent;
     color:white;
