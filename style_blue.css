@@ -1,0 +1,191 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* font-family:'Nunito',sans-serif; */
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(17, 14, 14);
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-track{
+        background-color:rgb(217, 195, 195);
+}
+::-webkit-scrollbar-thumb{
+        background-color: var(--red);
+}
+
+/* header */
+.container{
+    padding: 0 10%;
+    /* background-color:violet; */
+}
+header{
+    width:100%;
+    transition: .4s;
+}
+.nav-1{
+    color:white
+}
+.icon{
+    margin:20px;
+    justify-content: space-between;
+    display:flex;
+    font-size:20px;
+    position: sticky;
+    top:0;
+}
+.social i{
+    padding:6px;
+    color:white;
+  
+}
+a i:hover{
+    background-color: white;
+    color:black;
+    border-radius: 50%;
+    padding:7px;
+}
+#i{
+    width:40%;
+    height:auto;
+    margin:40px 20px 10px 10px;
+    box-shadow: 2px 2px 10px white;
+  
+}
+.text{
+    position:absolute;
+    top:200px;
+    left:45%;
+}
+.text h3{
+    color:rgb(17, 14, 14);
+    text-shadow: -1px -1px  white ,1px 1px white;
+    font-size: 30px;
+}
+.text h2{
+    font-size: 20px;
+    line-height:2;
+    font-family:'Nunito',sans-serif;
+}
+.btn1{
+    margin-top:40px;
+    margin-right: 10px;
+    padding:10px;
+    border:none;
+    outline:none;
+    background-color: rgb(36, 213, 149);
+    color:white;
+}
+.btn1:hover{
+    background-color:white;
+    color:black;
+}
+.btn2{
+    margin-top: 40px;
+    padding:9px;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+}
+.btn2:hover{
+    background-color: white;
+    color:black;
+}
+
+
+/* song track */
+.contain_list{
+    margin:40px 20px 10px 10px;
+    color:white;
+}
+.contain_list h1{
+    padding-bottom: 20px;
+}
+.songs{
+    display: flex;
+}
+
+.songs #s_name{
+    padding:10px 0px 0px 30px;
+    flex-basis:1000px;
+    
+    
+}
+.songs #s_name span{
+    display: flex;
+    padding:10px 0px 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:12px;
+}
+.songs h4{
+    padding:10px 10px 0px 30px;
+}
+.songs #adjust{
+ padding-right: 2px;
+}
+.songs #s_share{
+    padding:10px 0px 0px 30px;
+}
+.edit{
+    border:none;
+   background-color: transparent; 
+   color:white;
+   font-size: 17px;
+   
+}
+/* vedio */
+
+.container .vedio_adjust{
+    margin:40px 0px 10px 20px;
+}
+/* footer */
+.c1{
+    margin:40px 0px 10px 20px;
+}
+ li{
+  
+    color:white;
+}
+hr{
+    margin:5px 0px 10px 0px;
+}
+.footer1{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div li{
+    list-style-type: none;
+    padding-left: ;
+}
+#l1{
+    color:gray;
+}
+#l2{
+    font-family:cursive;
+    font-size:12px;
+}
+input{
+
+    background-color: transparent;
+    outline:none;
+    border:none;
+    border-bottom: 2px solid white;
+    font-size: 10px;
+    color:white;
+}
+input:active{
+    
+}
+.end_footer{
+    color:white;
+    display:flex;
+    justify-content:space-between;
+}
